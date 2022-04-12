@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.logo img{
+    width: 35%;
+    height: 35%;
+    border: 2px solid cyan;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{ 
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.nav-list li a:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.rightnav{
+    width: 30%;
+    /* background-color: brown; */
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0,0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.f-half{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+/* .s-half{} */
+.s-half img{
+   width: 70%;
+   border: 2px solid white;
+   border-radius: 150px;
+   display: block;
+   margin: auto;
+}
+.big-text{
+   font-size: 40px;
+}
+.big-text-2{
+    font-size: 40px;
+ }
+.small-text{
+    font-size: 18px;
+}
+.btn{
+    padding: 5px 9px;
+    margin: 13px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 5px 10px;
+}
+.btn-2:hover{
+    color: white;
+    background-color: black;
+}
+.section{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sectionTag{
+    font-weight: bold;
+    padding: 16px 0;
+}
+.section-left{
+   flex-direction: row-reverse;
+}
+.imgFluid{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+.paras{
+    padding: 0 60px;
+}
+.contact{
+    height: 500px;
+    background-color: #ece8e8;
+}
+.text-center{
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    max-width: 62%;
+    margin: auto;
+}
+.input-contact{
+    width: 100%;
+    margin: 7px 0;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+textarea{
+    width: 100%;
+    margin: 7px 0;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.btn-2{
+    padding: 5px 9px;
+    margin: 13px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 11px;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    margin: 4px 4px;
+}
